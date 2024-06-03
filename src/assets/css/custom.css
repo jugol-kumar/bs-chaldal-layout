@@ -1,0 +1,137 @@
+.sidebar-margin{
+    margin-left: 14.3rem;
+    z-index: 1;
+    padding: 25px;
+
+}
+.carousel-inner img{
+    height: 20rem;
+}
+
+.featured-category-item{
+    width: 31%;
+}
+.product-item{
+    width: 20%;
+}
+
+.offer .card-product-details {
+    font-size: 13px;
+}
+.offer .card-footer{
+    border: 1px solid whitesmoke;
+    border-radius: 0;
+    background: none;
+    padding: 0 0;
+    text-align: center;
+}
+
+.cart-buttons{
+    background: #ff8100;
+    color: white;
+    font-weight: bold;
+    height: 100%;
+    /*padding: 6px 14px;*/
+    margin: 0;
+}
+.cart-buttons .action{
+    padding: 6px 14px;
+    background: #cd6800;
+    border-radius: 5px 5px;
+}
+
+
+/* why chose us section style*/
+#whyChoseUs .col{
+    padding: 0;
+}
+#whyChoseUs .card{
+    border: none;
+    border-radius: 0;
+    min-height: 250px;
+}
+#whyChoseUs .c1{
+    border-bottom: 3px solid greenyellow;
+}
+#whyChoseUs .c2{
+    border-bottom: 3px solid orange;
+}
+#whyChoseUs .c3{
+    border-bottom: 3px solid #00b7ff;
+}
+#whyChoseUs .card-bg-image {
+    width: 100%;
+    height: 100%;
+    background-size: cover !important;
+}
+#whyChoseUs .c1 .card-bg-image {
+    background: url("https://media.gettyimages.com/photos/delivery-biker-looking-over-their-shoulder-picture-id1307965024?s=2048x2048") no-repeat;
+}
+#whyChoseUs .c2 .card-bg-image {
+    background: url("https://previews.123rf.com/images/cgdeaw/cgdeaw1808/cgdeaw180800075/106577384-fig-fruit-ficus-racemosa-fig-on-tree-nature-fig-forest-fruit-fig-red-and-green-thai-fruits.jpg?fj=1") no-repeat;
+}
+#whyChoseUs .c3 .card-bg-image {
+    background: url("https://s3.envato.com/files/315822185/132_1R3A9538.jpg") no-repeat;
+}
+#whyChoseUs .card-body{
+    padding: 0;
+}
+#whyChoseUs .card-body .card-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background: rgba(255,255,255,.8);
+    height: 69%;
+    padding: 15px;
+}
+#whyChoseUs .card-body .card-content h3 {
+    color: black;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: arial;
+}
+#whyChoseUs .card-body .card-content p {
+    color: black;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* why chose us section style*/
+
+
+
+@media (max-width: 768px) {
+    .sidebar-margin {
+        margin-left: 0;
+        z-index: 1;
+        padding: 0;
+    }
+    .featured-category{
+        padding: 0!important;
+    }
+
+    .featured-category-item {
+        padding: 15px !important;
+        width: 43%;
+
+        text-align: center;
+        height: 100%;
+        justify-content: center !important;
+    }
+    .featured-category-item div{
+        flex-direction: column-reverse;
+        gap: 15px;
+    }
+
+    .product-item {
+        width: 50%;
+    }
+
+    .offer .card-product-details {
+        font-size: 11px;
+    }
+}
